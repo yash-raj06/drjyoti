@@ -9,7 +9,7 @@ const roboto = Roboto({ weight: ['400', '500', '700'], subsets: ['latin'], varia
 const merriweather = Merriweather({ weight: ['400', '700'], subsets: ['latin'], variable: '--font-display' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL('https://drjyotip.netlify.app'),
   title: {
     default: "Dr Jyoti's Physiotherapy Center",
     template: "%s | Dr Jyoti's Physiotherapy Center"
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr Jyoti's Physiotherapy Center",
     description: 'Patient-focused physiotherapy and rehabilitation clinic in Awadhpuri, Bhopal.',
-    url: 'https://your-domain.com',
+    url: 'https://drjyotip.netlify.app',
     siteName: "Dr Jyoti's Physiotherapy Center",
     locale: 'en_IN',
     type: 'website'
